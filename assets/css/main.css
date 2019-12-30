@@ -2598,7 +2598,7 @@ input, select, textarea {
 			content: '';
 			width: 1em;
 			height: 1px;
-			border-top: solid 1px;
+			border-top: solid 1px white;
 			display: block;
 			position: absolute;
 			top: 50%;
@@ -3836,7 +3836,18 @@ input, select, textarea {
 	}
 
 /* Intro */
-
+	#intro {
+		background-image: url("../../images/railroad.png");
+		background-repeat: no-repeat;
+		background-size: auto;
+		color: white;
+	}
+	#intro h1 {
+		font-weight: 900;
+	}
+	#intro header {
+		text-align: center;
+	}
 	#intro .image {
 		-moz-transition: opacity 0.75s ease-in-out;
 		-webkit-transition: opacity 0.75s ease-in-out;
